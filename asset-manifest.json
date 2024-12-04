@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/maues-site-fmm/static/css/main.86d65af9.css",
+    "main.js": "/maues-site-fmm/static/js/main.c8dab2e1.js",
+    "static/js/453.9c0fd205.chunk.js": "/maues-site-fmm/static/js/453.9c0fd205.chunk.js",
+    "static/media/background2.png": "/maues-site-fmm/static/media/background2.2ae55d5a45c8b9c3113d.png",
+    "static/media/background-cultura.png": "/maues-site-fmm/static/media/background-cultura.ea78981f81f99d94da73.png",
+    "static/media/background-culinaria.png": "/maues-site-fmm/static/media/background-culinaria.b0c7ff7717773fc10913.png",
+    "static/media/image 3.png": "/maues-site-fmm/static/media/image 3.db751df91b4e072e4499.png",
+    "static/media/image 2.webp": "/maues-site-fmm/static/media/image 2.b38ac5d3d79e26b0672a.webp",
+    "static/media/festa3.jpg": "/maues-site-fmm/static/media/festa3.39ca826da913d7e954d0.jpg",
+    "static/media/image-cultura.webp": "/maues-site-fmm/static/media/image-cultura.83e0d6fea0cfb718e9f3.webp",
+    "static/media/festa2.jpg": "/maues-site-fmm/static/media/festa2.81d37143f0a178934912.jpg",
+    "static/media/image4.png": "/maues-site-fmm/static/media/image4.f72f9208fa83b2df6a62.png",
+    "static/media/image-farinha.jpg": "/maues-site-fmm/static/media/image-farinha.0d64184038ff052479d0.jpg",
+    "static/media/image-historia.webp": "/maues-site-fmm/static/media/image-historia.d2e81d9a17cf93c1094a.webp",
+    "static/media/imageCulinariaMaues.jpeg": "/maues-site-fmm/static/media/imageCulinariaMaues.c60c48ac9cf231207bf1.jpeg",
+    "static/media/image-geografia.jpeg": "/maues-site-fmm/static/media/image-geografia.ab05f97d2f0d3c48f783.jpeg",
+    "static/media/festa1.webp": "/maues-site-fmm/static/media/festa1.942b4d529c0d0359918d.webp",
+    "static/media/image-guarana.webp": "/maues-site-fmm/static/media/image-guarana.bc45b77adae0e2758b5d.webp",
+    "static/media/image-tacaca.jpeg": "/maues-site-fmm/static/media/image-tacaca.90628b65a0438763f54f.jpeg",
+    "static/media/nothing to see here.jpg": "/maues-site-fmm/static/media/nothing to see here.b120bc73906f6ea411a9.jpg",
+    "static/media/image-pirarucu.webp": "/maues-site-fmm/static/media/image-pirarucu.0174b5336259a01aa36d.webp",
+    "index.html": "/maues-site-fmm/index.html",
+    "main.86d65af9.css.map": "/maues-site-fmm/static/css/main.86d65af9.css.map",
+    "main.c8dab2e1.js.map": "/maues-site-fmm/static/js/main.c8dab2e1.js.map",
+    "453.9c0fd205.chunk.js.map": "/maues-site-fmm/static/js/453.9c0fd205.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.86d65af9.css",
+    "static/js/main.c8dab2e1.js"
+  ]
+}
