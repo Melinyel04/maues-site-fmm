@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home/Home";
+import Cultura from "./pages/Cultura/Cultura";
+import Culinária from "./pages/Culinária/Culinária";
+import Geografia from "./pages/Geografia/Geografia";
+import História from "./pages/História/História";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app-container">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/cultura" element={<Cultura />} />
+          <Route path="/culinaria" element={<Culinária />} />
+          <Route path="/geografia" element={<Geografia />} />
+          <Route path="/historia" element={<História />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

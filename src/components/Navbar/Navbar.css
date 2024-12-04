@@ -1,0 +1,92 @@
+.navbar {
+  background-color: white;
+  color: black;
+  padding: 1rem 0;
+  position: relative;
+}
+
+.navbar-container {
+  max-width: 1200px;
+  max-height: 40px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.navbar-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Botão Saiba Mais */
+.navbar-button {
+  position: absolute;
+  right: 1rem;
+  background-color: #c54444;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.navbar-button:hover {
+  background-color: #702626;
+}
+
+/* Menu */
+.navbar-menu {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 1.5rem;
+  list-style: none;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-item {
+  cursor: pointer;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.navbar-item.highlighted {
+  background-color: #697D66; 
+  color: black; 
+  border-radius: 5px;
+  border: 3px solid #697D66; /* Adiciona uma borda maior */
+}
+
+.navbar-item:hover {
+  text-decoration: underline;
+}
+
+/* Estilo específico para a navbar na página de Culinária */
+.navbar-culinaria {
+  background-color: white; /* Cor dourada para Culinária */
+  color: black;
+}
+
+.navbar-home {
+  background-color: white; /* Cor dourada para Culinária */
+  color: black;
+}
+
+.navbar-link {
+  text-decoration: none;
+  color: inherit; /* Mantém a cor do texto */
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+
+.highlighted {
+  font-weight: bold;
+  color: #f39c12; /* Cor destaque */
+}
+
+

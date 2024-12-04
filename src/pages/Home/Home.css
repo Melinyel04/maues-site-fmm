@@ -1,0 +1,163 @@
+/* Home.css */
+.cultura-container {
+  position: relative;
+}
+
+.main-content {
+  position: relative;
+}
+
+.background-img {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* A imagem de fundo ocupa toda a altura da tela */
+}
+
+.background-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card-section {
+  position: absolute;
+  bottom: 6%; /* Posicionar os cards um pouco acima do fundo */
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  gap: 40px; /* Aumentando o espaçamento entre os cards */
+}
+
+.card {
+  width: 250px;
+  height: 300px; /* A altura maior dos cards */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo translúcido */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden; /* Impede que o conteúdo ultrapasse os limites do card */
+  transition: transform 0.6s ease, box-shadow 0.3s ease;
+}
+
+.card-title {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Melhora a visibilidade do texto */
+  text-align: center;
+  z-index: 1; /* Garante que o texto fique acima do fundo */
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo preto translúcido */
+  padding: 10px; /* Espaçamento interno para melhorar o layout */
+  border-radius: 5px; /* Bordas arredondadas */
+  position: absolute;
+  top: 50%; /* Posiciona no centro vertical */
+  left: 50%; /* Posiciona no centro horizontal */
+  transform: translate(-50%, -50%); /* Centraliza completamente */
+  width: 80%; /* Controla a largura do título */
+  transition: opacity 0.3s ease, background-color 0.3s ease;
+}
+
+.card-hover-text {
+  color: white;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  z-index: 1; /* Garante que o texto fique acima da imagem */
+  opacity: 0; /* Começa invisível */
+  transition: opacity 0.3s ease; /* Animação de aparecimento */
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card:hover {
+  transform: scale(1.1); /* Aumenta o tamanho do card, mas sem rotação no card */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.6); /* Sombra para efeito de "crescer" */
+}
+
+.card:hover .card-hover-text {
+  opacity: 1; /* Mostra o texto alternativo ao passar o mouse */
+  z-index: 2; /* Garante que o texto alternativo fique visível acima */
+}
+
+.card::before {
+  content: ""; /* Cria o pseudo-elemento */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6); /* Plano de fundo mais escuro no hover */
+  z-index: 0; /* Garante que o fundo fique atrás do texto */
+  transition: background-color 0.3s ease;
+  opacity: 0; /* Esconde o fundo escuro por padrão */
+}
+
+
+.card:hover::before {
+  opacity: 1; /* Torna visível o fundo escuro no hover */
+}
+
+
+/* Para trocar a imagem de fundo ao passar o mouse, use a pseudo-classe ::after */
+.card::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  z-index: -1;
+  transition: opacity 0.3s ease;
+}
+
+.card:hover::after {
+  opacity: 0; /* Torna visível a nova imagem ao passar o mouse */
+}
+
+/* Evita que o texto gire junto com o card */
+.card:hover .card-title {
+  opacity: 0; /* Oculta o título ao passar o mouse */
+  transition: opacity 0.3s ease; /* Suaviza o desaparecimento */
+}
+
+/* Não aplicar rotação ao texto, apenas no card */
+.card:hover .card-title,
+.card:hover .card-hover-text {
+  transform: rotateY(0deg); /* Impede que o texto gire junto com o card */
+  text-align: justify;
+  width: 200px;
+  font-size: medium;
+}
+
+
+.title-section {
+  position: absolute;
+  top: 9%; /* Ajuste o valor conforme necessário */
+  left: 10%; /* Justificado à esquerda */
+  color: white;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7); /* Para melhorar a visibilidade */
+  z-index: 1; /* Garante que o texto fique acima do fundo */
+}
+
+.main-title {
+  font-size: 4rem; /* Título maior */
+  font-weight: bold;
+  margin: 0; /* Remove margem padrão */
+}
+
+.sub-title {
+  font-size: 1.5rem; /* Título menor */
+  font-weight: 300; /* Texto mais leve */
+  margin: 0.5rem 0 0 0; /* Margem superior */
+  font-weight: bold;
+}

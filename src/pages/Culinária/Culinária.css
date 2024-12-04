@@ -1,0 +1,239 @@
+.cultura-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f3f3f3;
+  }
+  
+  /* Main content */
+  .main-content {
+    flex-grow: 1;
+    width: 100%;
+  }
+  
+  /* Banner section */
+  .banner-section {
+    position: relative;
+    width: 100%;
+    min-height: 60vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  /* Overlay */
+  .overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  /* Banner text */
+  .banner-text {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    color: white;
+    padding-top: 2rem;
+  }
+  
+  .banner-text h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  .banner-text h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Banner button */
+  .banner-button {
+    position: relative;
+    z-index: 1;
+    padding-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .banner-button button {
+    background-color: #380c06;
+    color: white;
+    width: 160px;
+    height: 35px;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .banner-button button:hover {
+    background-color: #c87b71;
+  }
+  
+  /* Content section */
+.content-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-content {
+  flex: 1;
+  max-width: 80%;
+  text-align: justify;
+}
+
+.image1 img {
+  width: 600px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.content-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+.content-titulo-2 h1 {
+    justify-content: flex-start;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.text-content-2 {
+  flex: 1;
+  max-width: 600px;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-top: -78px;
+  margin-right: 70px;
+}
+
+.image2 img {
+  width: 500px;
+  height: 260px;
+  border-radius: 10px;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.content-3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+  gap: 20px;
+}
+
+.content-titulo-3 h1 {
+    justify-content: flex-start;
+    padding: 30px;
+    font-size: 20px;
+    margin-left: 40px;
+}
+
+.text-content-3 {
+  flex: 1;
+  max-width: 600px;
+  text-align: justify;
+  text-justify: inter-word;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-top: -78px;
+  margin-right: 70px;
+}
+
+.image3 img {
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  margin-top: -50px;
+  margin-left: 50px;
+}
+
+.content-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .content-titulo-4 h1 {
+      justify-content: flex-start;
+      padding: 30px;
+      font-size: 20px;
+      margin-left: 40px;
+  }
+  
+  .text-content-4 {
+    flex: 1;
+    max-width: 600px;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-top: -78px;
+    margin-right: 70px;
+  }
+  
+  .image4 img {
+    width: 500px;
+    height: 350px;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-left: 50px;
+  }
+
+  .content-5 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+  }
+  
+  .content-titulo-5 h1 {
+      justify-content: flex-start;
+      padding: 30px;
+      font-size: 20px;
+      margin-left: 40px;
+  }
+  
+  .text-content-5 {
+    flex: 1;
+    max-width: 600px;
+    text-align: justify;
+    text-justify: inter-word;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    margin-top: -78px;
+    margin-right: 70px;
+  }
+  
+  .image5 img {
+    width: 500px;
+    height: 340px;
+    border-radius: 10px;
+    margin-top: -50px;
+    margin-left: 50px;
+  }
+
+.main-content {
+    background-color: #BA9D70;
+}
