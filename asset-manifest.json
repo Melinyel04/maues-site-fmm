@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maues-site-fmm/static/css/main.86d65af9.css",
-    "main.js": "/maues-site-fmm/static/js/main.c8dab2e1.js",
+    "main.js": "/maues-site-fmm/static/js/main.2d5ef0a8.js",
     "static/js/453.9c0fd205.chunk.js": "/maues-site-fmm/static/js/453.9c0fd205.chunk.js",
     "static/media/background2.png": "/maues-site-fmm/static/media/background2.2ae55d5a45c8b9c3113d.png",
     "static/media/background-cultura.png": "/maues-site-fmm/static/media/background-cultura.ea78981f81f99d94da73.png",
@@ -23,11 +23,11 @@
     "static/media/image-pirarucu.webp": "/maues-site-fmm/static/media/image-pirarucu.0174b5336259a01aa36d.webp",
     "index.html": "/maues-site-fmm/index.html",
     "main.86d65af9.css.map": "/maues-site-fmm/static/css/main.86d65af9.css.map",
-    "main.c8dab2e1.js.map": "/maues-site-fmm/static/js/main.c8dab2e1.js.map",
+    "main.2d5ef0a8.js.map": "/maues-site-fmm/static/js/main.2d5ef0a8.js.map",
     "453.9c0fd205.chunk.js.map": "/maues-site-fmm/static/js/453.9c0fd205.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86d65af9.css",
-    "static/js/main.c8dab2e1.js"
+    "static/js/main.2d5ef0a8.js"
   ]
 }
